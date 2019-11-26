@@ -2,9 +2,9 @@
   "name": "@tractorzoom/virtualized-select",
   "version": "1.0.0",
   "description": "React virtualized select element using react-window",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/TractorZoom/virtualized-select/issues"
   },
-  "homepage": "https://github.com/TractorZoom/virtualized-select#readme"
+  "homepage": "https://github.com/TractorZoom/virtualized-select#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-test-renderer": "^16.12.0"
+  }
 }
