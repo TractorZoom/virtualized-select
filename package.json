@@ -10,6 +10,9 @@
         "storybook": "start-storybook",
         "test": "jest"
     },
+    "peerDependencies": {
+        "react": "^16.12.0"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/TractorZoom/virtualized-select.git"

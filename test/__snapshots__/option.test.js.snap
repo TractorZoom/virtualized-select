@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option with no subtitle 1`] = `
+<div
+  className="option-container"
+>
+  <div>
+    some label
+  </div>
+</div>
+`;
+
+exports[`Option with subtitle 1`] = `
+<div
+  className="option-container"
+>
+  <div>
+    some label
+  </div>
+  <div
+    className="option-subtitle"
+  >
+    <span>
+      some subtitle
+    </span>
+  </div>
+</div>
+`;
