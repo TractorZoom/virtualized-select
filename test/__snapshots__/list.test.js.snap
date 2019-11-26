@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List when empty 1`] = `
+<div
+  className="auto-sized-menu"
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`List when less than 6 options 1`] = `
+<div
+  className="auto-sized-menu"
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`List when value set and option found 1`] = `
+<div
+  className="auto-sized-menu"
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`List when value set and option not found 1`] = `
+<div
+  className="auto-sized-menu"
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
