@@ -1,33 +1,42 @@
 {
-  "name": "@tractorzoom/virtualized-select",
-  "version": "1.0.0",
-  "description": "React virtualized select element using react-window",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TractorZoom/virtualized-select.git"
-  },
-  "keywords": [
-    "react-window",
-    "virtualized",
-    "select"
-  ],
-  "author": "Tractor Zoom",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TractorZoom/virtualized-select/issues"
-  },
-  "homepage": "https://github.com/TractorZoom/virtualized-select#readme",
-  "devDependencies": {
-    "@babel/preset-env": "^7.7.4",
-    "@babel/preset-react": "^7.7.4",
-    "babel-jest": "^24.9.0",
-    "jest": "^24.9.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-test-renderer": "^16.12.0"
-  }
+    "name": "@tractorzoom/virtualized-select",
+    "version": "1.0.0",
+    "description": "React virtualized select element using react-window",
+    "main": "src/index.js",
+    "scripts": {
+        "pretty-quick": "pretty-quick",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TractorZoom/virtualized-select.git"
+    },
+    "keywords": [
+        "react-window",
+        "virtualized",
+        "select"
+    ],
+    "author": "Tractor Zoom",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/virtualized-select/issues"
+    },
+    "homepage": "https://github.com/TractorZoom/virtualized-select#readme",
+    "devDependencies": {
+        "@babel/preset-env": "^7.7.4",
+        "@babel/preset-react": "^7.7.4",
+        "babel-jest": "^24.9.0",
+        "husky": "^3.1.0",
+        "jest": "^24.9.0",
+        "prettier": "^1.19.1",
+        "pretty-quick": "^2.0.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-test-renderer": "^16.12.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
 }
