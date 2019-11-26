@@ -5,6 +5,7 @@
     "main": "src/index.js",
     "scripts": {
         "commit": "git-cz",
+        "deploy-storybook": "storybook-to-ghpages",
         "pretty-quick": "pretty-quick",
         "storybook": "start-storybook",
         "test": "jest"
@@ -31,6 +32,7 @@
         "@commitlint/cli": "^8.2.0",
         "@commitlint/config-conventional": "^8.2.0",
         "@storybook/react": "^5.2.6",
+        "@storybook/storybook-deployer": "^2.8.1",
         "babel-jest": "^24.9.0",
         "babel-loader": "^8.0.6",
         "commitizen": "^4.0.3",
