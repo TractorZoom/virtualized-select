@@ -108,7 +108,7 @@ exports[`Virtualized Select only required props 1`] = `
 
 exports[`Virtualized Select with optional props 1`] = `
 <div
-  className="virtualized-select required css-14jk2my-container"
+  className="virtualized-select disabled required css-14jk2my-container"
   onKeyDown={[Function]}
 >
   <div
