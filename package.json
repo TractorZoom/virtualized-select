@@ -4,6 +4,7 @@
     "description": "React virtualized select element using react-window",
     "main": "src/index.js",
     "scripts": {
+        "build-storybook": "build-storybook -s public",
         "commit": "git-cz",
         "deploy-storybook": "storybook-to-ghpages",
         "pretty-quick": "pretty-quick",
