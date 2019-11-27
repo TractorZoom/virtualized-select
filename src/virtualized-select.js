@@ -3,13 +3,17 @@ import Option from './option'
 import PropTypes from 'prop-types'
 import React from 'react'
 import Select from 'react-select'
-// import './virtualized-select.scss'
+import classNames from 'classnames'
+import './virtualized-select.css'
 
 const VirtualizedSelect = props => {
     return (
         <Select
             autosize
-            className={`virtualized-select${props.isRequired ? ' required' : ''}`}
+            className={classNames('virtualized-select', {
+                disabled: props.isDisabled,
+                required: props.isRequired,
+            })}
             components={{MenuList: List}}
             defaultValue={props.value}
             formatOptionLabel={Option}

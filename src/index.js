@@ -1,3 +1,1 @@
-module.exports = {
-    VirtualizedSelect: require('./virtualized-select'),
-}
+module.exports = require('./virtualized-select')
