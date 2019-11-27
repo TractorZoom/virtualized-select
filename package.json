@@ -6,7 +6,7 @@
     "scripts": {
         "build-storybook": "build-storybook -s public",
         "commit": "git-cz",
-        "deploy-storybook": "storybook-to-ghpages",
+        "deploy-storybook": "sh deploy-gh-pages",
         "pretty-quick": "pretty-quick",
         "storybook": "start-storybook",
         "test": "jest"
