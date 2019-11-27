@@ -44,7 +44,6 @@
         "@storybook/addon-notes": "^5.2.6",
         "@storybook/addon-storysource": "^5.2.6",
         "@storybook/react": "^5.2.6",
-        "@storybook/storybook-deployer": "^2.8.1",
         "babel-jest": "^24.9.0",
         "babel-loader": "^8.0.6",
         "chance": "^1.1.3",

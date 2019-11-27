@@ -2,7 +2,9 @@
 
 React virtualized select element using react-window
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://tractorzoom.github.io/virtualized-select/)
+
+[Live Examples with Storybook](https://tractorzoom.github.io/virtualized-select/)
 
 ## Usage
 
@@ -59,6 +61,10 @@ We use Prettier with pre-commit hooks to format the majority of our code style p
 ### Committing
 
 We use commitlint to ensure our commit messages are consistent and semantic. Commitlint is enable through a pre-commit hook with `husky`. For assistance with making commit messages that abide by our configuration, use `npm run commit` to step through the commitizen wizard to commit staged changes.
+
+### Storybook
+
+We use [Storybook](https://github.com/storybookjs/storybook) to create our examples for our component. If you are adding or editing props to the `VirtualizedSelect` component, ensure that you have added or updated any stories effected to document the functionality of the component.
 
 ### Testing
 
