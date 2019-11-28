@@ -1,4 +1,4 @@
-name: Pull Request Verify
+name: pull_request_verify
 
 on:
     pull_request:

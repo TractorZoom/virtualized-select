@@ -4,7 +4,7 @@ React virtualized select element using react-window
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://tractorzoom.github.io/virtualized-select/)
 
-[![Publish Status](https://github.com/TractorZoom/virtualized-select/workflows/Publish Node Package/badge.svg)](https://github.com/TractorZoom/virtualized-select/actions) [![PR Verify Status](https://github.com/TractorZoom/virtualized-select/workflows/Pull Request Verify/badge.svg)](https://github.com/TractorZoom/virtualized-select/actions)
+[![Publish Status](https://github.com/TractorZoom/virtualized-select/workflows/publish/badge.svg)](https://github.com/TractorZoom/virtualized-select/actions) [![PR Verify Status](https://github.com/TractorZoom/virtualized-select/workflows/pull_request_verify/badge.svg)](https://github.com/TractorZoom/virtualized-select/actions)
 
 [Live Examples with Storybook](https://tractorzoom.github.io/virtualized-select/)
 
