@@ -8,6 +8,21 @@ React virtualized select element using react-window
 
 [Live Examples with Storybook](https://tractorzoom.github.io/virtualized-select/)
 
+## Install
+
+To download make sure the Tractor Zoom GitHub org has been added to your projects `.npmrc` file:
+
+```
+registry=https://registry.npmjs.org // if you were currently using npm
+@tractorzoom:registry=https://npm.pkg.github.com
+```
+
+Then:
+
+```
+npm i --save @tractorzoom/virtualized-select
+```
+
 ## Usage
 
 ```
