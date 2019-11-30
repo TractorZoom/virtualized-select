@@ -5,7 +5,7 @@ on:
         types: [created]
 
 jobs:
-    build_and_test:
+    build-and-test:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
@@ -16,7 +16,7 @@ jobs:
             - run: npm test
 
     publish-github-package-registry:
-        needs: build
+        needs: build-and-test
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
