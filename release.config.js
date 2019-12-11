@@ -29,7 +29,7 @@ module.exports = {
             {
                 preset: 'angular',
                 parserOpts: {
-                    noteKeywords: ['breaking'],
+                    noteKeywords: ['breaking', 'chore'],
                 },
                 writerOpts: {
                     commitsSort: ['subject', 'scope'],
