@@ -46,4 +46,11 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 10
-            - run: npm run deploy-storybook
+            - run: npm run build-storybook
+            - name: 'Deploy to GitHub Pages'
+              uses: crazy-max/ghaction-github-pages@v1
+              with:
+                  target_branch: gh-pages
+                  build_dir: storybook-static
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
