@@ -2,14 +2,25 @@
 
 exports[`List when empty 1`] = `
 <div
-  className="auto-sized-menu"
+  onScroll={[Function]}
+  style={
+    Object {
+      "WebkitOverflowScrolling": "touch",
+      "direction": "ltr",
+      "height": 0,
+      "overflow": "auto",
+      "position": "relative",
+      "width": undefined,
+      "willChange": "transform",
+    }
+  }
 >
   <div
     style={
       Object {
         "height": 0,
-        "overflow": "visible",
-        "width": 0,
+        "pointerEvents": undefined,
+        "width": "100%",
       }
     }
   />
@@ -18,48 +29,227 @@ exports[`List when empty 1`] = `
 
 exports[`List when less than 6 options 1`] = `
 <div
-  className="auto-sized-menu"
+  onScroll={[Function]}
+  style={
+    Object {
+      "WebkitOverflowScrolling": "touch",
+      "direction": "ltr",
+      "height": 80,
+      "overflow": "auto",
+      "position": "relative",
+      "width": undefined,
+      "willChange": "transform",
+    }
+  }
 >
   <div
     style={
       Object {
-        "height": 0,
-        "overflow": "visible",
-        "width": 0,
+        "height": 80,
+        "pointerEvents": undefined,
+        "width": "100%",
       }
     }
-  />
+  >
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      first child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 40,
+          "width": "100%",
+        }
+      }
+    >
+      second child
+    </div>
+  </div>
 </div>
 `;
 
 exports[`List when value set and option found 1`] = `
 <div
-  className="auto-sized-menu"
+  onScroll={[Function]}
+  style={
+    Object {
+      "WebkitOverflowScrolling": "touch",
+      "direction": "ltr",
+      "height": 80,
+      "overflow": "auto",
+      "position": "relative",
+      "width": undefined,
+      "willChange": "transform",
+    }
+  }
 >
   <div
     style={
       Object {
-        "height": 0,
-        "overflow": "visible",
-        "width": 0,
+        "height": 80,
+        "pointerEvents": undefined,
+        "width": "100%",
       }
     }
-  />
+  >
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      first child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 40,
+          "width": "100%",
+        }
+      }
+    >
+      second child
+    </div>
+  </div>
 </div>
 `;
 
 exports[`List when value set and option not found 1`] = `
 <div
-  className="auto-sized-menu"
+  onScroll={[Function]}
+  style={
+    Object {
+      "WebkitOverflowScrolling": "touch",
+      "direction": "ltr",
+      "height": 250,
+      "overflow": "auto",
+      "position": "relative",
+      "width": undefined,
+      "willChange": "transform",
+    }
+  }
 >
   <div
     style={
       Object {
-        "height": 0,
-        "overflow": "visible",
-        "width": 0,
+        "height": 280,
+        "pointerEvents": undefined,
+        "width": "100%",
       }
     }
-  />
+  >
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      first child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 40,
+          "width": "100%",
+        }
+      }
+    >
+      second child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 80,
+          "width": "100%",
+        }
+      }
+    >
+      third child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 120,
+          "width": "100%",
+        }
+      }
+    >
+      fourth child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 160,
+          "width": "100%",
+        }
+      }
+    >
+      fifth child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 200,
+          "width": "100%",
+        }
+      }
+    >
+      sixth child
+    </div>
+    <div
+      style={
+        Object {
+          "height": 40,
+          "left": 0,
+          "position": "absolute",
+          "top": 240,
+          "width": "100%",
+        }
+      }
+    >
+      seventh child
+    </div>
+  </div>
 </div>
 `;

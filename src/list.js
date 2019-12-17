@@ -1,4 +1,3 @@
-import AutoSizer from 'react-virtualized-auto-sizer'
 import {FixedSizeList} from 'react-window'
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -19,23 +18,14 @@ const List = props => {
     }
 
     return (
-        <div className='auto-sized-menu'>
-            <AutoSizer>
-                {({height, width}) => {
-                    return (
-                        <FixedSizeList
-                            height={height}
-                            itemCount={children.length}
-                            itemSize={ROW_HEIGHT}
-                            initialScrollOffset={initialOffset}
-                            width={width}
-                        >
-                            {({index, style}) => <div style={style}>{children[index]}</div>}
-                        </FixedSizeList>
-                    )
-                }}
-            </AutoSizer>
-        </div>
+        <FixedSizeList
+            height={children.length > 6 ? 250 : children.length * ROW_HEIGHT}
+            itemCount={children.length}
+            itemSize={ROW_HEIGHT}
+            initialScrollOffset={initialOffset}
+        >
+            {({index, style}) => <div style={style}>{children[index]}</div>}
+        </FixedSizeList>
     )
 }
 
