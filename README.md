@@ -90,3 +90,4 @@ Using [Jest](https://github.com/facebook/jest) for testing. Prefer the use of Je
 ```
 npm run test
 ```
+
