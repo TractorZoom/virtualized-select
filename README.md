@@ -12,8 +12,10 @@ React virtualized select element using react-window
 
 To download make sure the Tractor Zoom GitHub org has been added to your projects `.npmrc` file:
 
+**Note: set registry value to whatever registry you are currently using**
+
 ```
-registry=https://registry.npmjs.org // if you were currently using npm
+registry=https://registry.npmjs.org
 @tractorzoom:registry=https://npm.pkg.github.com
 ```
 
