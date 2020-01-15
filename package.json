@@ -1,6 +1,6 @@
 {
     "name": "@tractorzoom/virtualized-select",
-    "version": "1.0.17",
+    "version": "1.0.18",
     "description": "React virtualized select element using react-window",
     "main": "lib/index.js",
     "scripts": {
