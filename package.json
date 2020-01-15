@@ -44,7 +44,7 @@
         "@commitlint/cli": "8.3.4",
         "@commitlint/config-conventional": "8.3.4",
         "@semantic-release/changelog": "3.0.6",
-        "@semantic-release/git": "7.0.18",
+        "@semantic-release/git": "8.0.0",
         "@semantic-release/release-notes-generator": "7.3.5",
         "@storybook/addon-a11y": "5.3.3",
         "@storybook/addon-actions": "5.3.3",
@@ -66,7 +66,7 @@
         "react-dom": "16.12.0",
         "react-select": "3.0.8",
         "react-test-renderer": "16.12.0",
-        "semantic-release": "15.14.0",
+        "semantic-release": "16.0.2",
         "storybook-host": "5.1.0"
     },
     "config": {
