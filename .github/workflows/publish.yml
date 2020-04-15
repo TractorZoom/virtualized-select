@@ -37,7 +37,7 @@ jobs:
                   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     publish-github-pages:
-        needs: publish-github-package-registry
+        needs: npm-publish
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
