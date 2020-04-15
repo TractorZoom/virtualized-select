@@ -6,7 +6,10 @@ import Select from 'react-select'
 import classNames from 'classnames'
 import './virtualized-select.css'
 
-const VirtualizedSelect = props => {
+const filterOption = (option, searchValue) =>
+    searchValue ? option.label.toLowerCase().includes(searchValue.toLowerCase()) : true
+
+const VirtualizedSelect = (props) => {
     return (
         <Select
             autosize
@@ -16,8 +19,10 @@ const VirtualizedSelect = props => {
             })}
             components={{MenuList: List}}
             defaultValue={props.value}
+            filterOption={filterOption}
             formatOptionLabel={Option}
             isDisabled={props.isDisabled}
+            noOptionsMessage={() => 'No Options Available'}
             onChange={props.onChange}
             options={props.options}
             placeholder={props.placeholder}
