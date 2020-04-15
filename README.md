@@ -10,17 +10,6 @@ React virtualized select element using react-window
 
 ## Install
 
-To download make sure the Tractor Zoom GitHub org has been added to your projects `.npmrc` file:
-
-**Note: set registry value to whatever registry you are currently using**
-
-```
-registry=https://registry.npmjs.org
-@tractorzoom:registry=https://npm.pkg.github.com
-```
-
-Then:
-
 ```
 npm i --save @tractorzoom/virtualized-select
 ```
@@ -92,4 +81,3 @@ Using [Jest](https://github.com/facebook/jest) for testing. Prefer the use of Je
 ```
 npm run test
 ```
-
