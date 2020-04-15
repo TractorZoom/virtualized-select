@@ -27,9 +27,6 @@
         "virtualized",
         "select"
     ],
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
     "author": "Tractor Zoom",
     "license": "ISC",
     "bugs": {
