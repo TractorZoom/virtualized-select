@@ -35,7 +35,12 @@ VirtualizedSelect.propTypes = {
     isDisabled: PropTypes.bool,
     isRequired: PropTypes.bool,
     onChange: PropTypes.func.isRequired,
-    options: PropTypes.array.isRequired,
+    options: PropTypes.arrayOf(
+        PropTypes.shape({
+            label: PropTypes.string,
+            value: PropTypes.oneOfType(PropTypes.string, PropTypes.number),
+        })
+    ).isRequired,
     placeholder: PropTypes.string,
     value: PropTypes.object,
 }
